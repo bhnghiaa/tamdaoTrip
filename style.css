@@ -1,0 +1,311 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab");
+html,
+body {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: "Roboto Slab", serif;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.heading {
+  background: white;
+  height: 5%;
+  margin: 10px;
+  padding: 0;
+}
+
+.swiper-container {
+  width: 100%;
+  height: 90%;
+}
+
+.swiper-slide {
+  text-align: center;
+  background: #fff;
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-general {
+  padding: 75px 0;
+  margin: 0 auto;
+  width: 1300px;
+}
+.container-general .gallery-wrap {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 60vh;
+}
+.container-general .gallery-wrap .item {
+  flex: 1;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: none;
+  transition: all 0.8s ease;
+}
+.container-general .gallery-wrap .item:hover {
+  flex: 5;
+}
+
+.wrap-effect-1 .item:first-of-type {
+  background-image: url("images/01.jpg");
+}
+.wrap-effect-1 .item:nth-of-type(2) {
+  background-image: url("images/02.jpg");
+}
+.wrap-effect-1 .item:nth-of-type(3) {
+  background-image: url("images/03.jpg");
+}
+.wrap-effect-1 .item:nth-of-type(4) {
+  background-image: url("images/032.JPG");
+}
+.wrap-effect-1 .item:nth-of-type(5) {
+  background-image: url("images/04.JPG");
+}
+
+.wrap-effect-2 .item:first-of-type {
+  background-image: url("images/05.JPG");
+}
+.wrap-effect-2 .item:nth-of-type(2) {
+  background-image: url("images/06.JPG");
+}
+.wrap-effect-2 .item:nth-of-type(3) {
+  background-image: url("images/07.JPG");
+}
+.wrap-effect-2 .item:nth-of-type(4) {
+  background-image: url("images/08.JPG");
+}
+.wrap-effect-2 .item:nth-of-type(5) {
+  background-image: url("images/09.JPG");
+}
+.wrap-effect-2 .item:nth-of-type(6) {
+  background-image: url("images/010.JPG");
+}
+.wrap-effect-2 .item:nth-of-type(7) {
+  background-image: url("images/011.JPG");
+}
+
+.wrap-effect-3 .item:first-of-type {
+  background-image: url("images/012.JPG");
+}
+.wrap-effect-3 .item:nth-of-type(2) {
+  background-image: url("images/013.JPG");
+}
+.wrap-effect-3 .item:nth-of-type(3) {
+  background-image: url("images/014.JPG");
+}
+.wrap-effect-3 .item:nth-of-type(4) {
+  background-image: url("images/015.JPG");
+}
+
+.wrap-effect-4 .item:first-of-type {
+  background-image: url("images/016.JPG");
+}
+.wrap-effect-4 .item:nth-of-type(2) {
+  background-image: url("images/017.JPG");
+}
+.wrap-effect-4 .item:nth-of-type(3) {
+  background-image: url("images/018.JPG");
+}
+.wrap-effect-4 .item:nth-of-type(4) {
+  background-image: url("images/019.JPG");
+}
+.wrap-effect-4 .item:nth-of-type(5) {
+  background-image: url("images/020.JPG");
+}
+.wrap-effect-4 .item:nth-of-type(6) {
+  background-image: url("images/021.JPG");
+}
+.wrap-effect-4 .item:nth-of-type(7) {
+  background-image: url("images/022.JPG");
+}
+.wrap-effect-5 .item:first-of-type {
+  background-image: url("images/057.JPG");
+}
+.wrap-effect-5 .item:nth-of-type(2) {
+  background-image: url("images/058.JPG");
+}
+.wrap-effect-5 .item:nth-of-type(3) {
+  background-image: url("images/059.JPG");
+}
+.wrap-effect-6 .item:first-of-type {
+  background-image: url("images/060.JPG");
+}
+.wrap-effect-6 .item:nth-of-type(2) {
+  background-image: url("images/061.jpg");
+}
+.wrap-effect-6 .item:nth-of-type(3) {
+  background-image: url("images/062.jpg");
+}
+
+.wrap-effect-7 .item:first-of-type {
+  background-image: url("images/024.JPG");
+}
+.wrap-effect-7 .item:nth-of-type(2) {
+  background-image: url("images/025.jpg");
+}
+.wrap-effect-7 .item:nth-of-type(3) {
+  background-image: url("images/028.jpg");
+}
+.wrap-effect-7 .item:nth-of-type(4) {
+  background-image: url("images/026.jpg");
+}
+.wrap-effect-7 .item:nth-of-type(5) {
+  background-image: url("images/027.jpg");
+}
+
+.wrap-effect-8 .item:first-of-type {
+  background-image: url("images/051.jpg");
+}
+.wrap-effect-8 .item:nth-of-type(2) {
+  background-image: url("images/063.JPG");
+}
+.wrap-effect-8 .item:nth-of-type(3) {
+  background-image: url("images/064.JPG");
+}
+.wrap-effect-8 .item:nth-of-type(4) {
+  background-image: url("images/065.JPG");
+}
+
+.wrap-effect-9 .item:first-of-type {
+  background-image: url("images/029.JPG");
+}
+.wrap-effect-9 .item:nth-of-type(2) {
+  background-image: url("images/030.JPG");
+}
+.wrap-effect-9 .item:nth-of-type(3) {
+  background-image: url("images/031.JPG");
+}
+
+.wrap-effect-10 .item:first-of-type {
+  background-image: url("images/067.jpg");
+}
+.wrap-effect-10 .item:nth-of-type(2) {
+  background-image: url("images/068.jpg");
+}
+.wrap-effect-10 .item:nth-of-type(3) {
+  background-image: url("images/052.jpg");
+}
+.wrap-effect-10 .item:nth-of-type(4) {
+  background-image: url("images/066.jpg");
+}
+.wrap-effect-10 .item:nth-of-type(5) {
+  background-image: url("images/041.jpg");
+}
+
+.wrap-effect-11 .item:first-of-type {
+  background-image: url("images/036.jpg");
+}
+.wrap-effect-11 .item:nth-of-type(2) {
+  background-image: url("images/037.jpg");
+}
+.wrap-effect-11 .item:nth-of-type(3) {
+  background-image: url("images/039.jpg");
+}
+.wrap-effect-11 .item:nth-of-type(4) {
+  background-image: url("images/038.jpg");
+}
+.wrap-effect-11 .item:nth-of-type(5) {
+  background-image: url("images/040.jpg");
+}
+
+.wrap-effect-12 .item:first-of-type {
+  background-image: url("images/042.jpg");
+}
+.wrap-effect-12 .item:nth-of-type(2) {
+  background-image: url("images/043.jpg");
+}
+.wrap-effect-12 .item:nth-of-type(3) {
+  background-image: url("images/044.jpg");
+}
+
+.wrap-effect-13 .item:first-of-type {
+  background-image: url("images/045.jpg");
+}
+.wrap-effect-13 .item:nth-of-type(2) {
+  background-image: url("images/046.jpg");
+}
+.wrap-effect-13 .item:nth-of-type(3) {
+  background-image: url("images/047.jpg");
+}
+
+.wrap-effect-14 .item:first-of-type {
+  background-image: url("images/069.jpg");
+}
+.wrap-effect-14 .item:nth-of-type(2) {
+  background-image: url("images/049.jpg");
+}
+.wrap-effect-14 .item:nth-of-type(3) {
+  background-image: url("images/050.jpg");
+}
+
+.wrap-effect-15 .item:first-of-type {
+  background-image: url("images/053.jpg");
+}
+.wrap-effect-15 .item:nth-of-type(2) {
+  background-image: url("images/054.jpg");
+}
+.wrap-effect-15 .item:nth-of-type(3) {
+  background-image: url("images/055.jpg");
+}
+.wrap-effect-15 .item:nth-of-type(4) {
+  background-image: url("images/056.jpg");
+}
+.wrap-effect-16 .item:nth-of-type(2) {
+  background-image: url("images/00.png");
+}
+.inspire {
+  border: 1px solid rgba(22, 76, 167, 0.6);
+  border-radius: 10px;
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+  text-decoration: none;
+  margin: 10px;
+  padding: 10px;
+}
+.inspire:after {
+  background: #38ef7d;
+  content: "";
+  height: 155px;
+  left: -75px;
+  opacity: 0.4;
+  position: absolute;
+  top: -50px;
+  transform: rotate(35deg);
+  transition: all 550ms cubic-bezier(0.19, 1, 0.22, 1);
+  width: 50px;
+  z-index: -10;
+}
+.inspire:hover:after {
+  left: 120%;
+  transition: all 550ms cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg) translate3d(0, 0, 0);
+  }
+  25% {
+    transform: rotate(10deg) translate3d(0, 0, 0);
+  }
+  50% {
+    transform: rotate(-10deg) translate3d(0, 0, 0);
+  }
+  75% {
+    transform: rotate(5deg) translate3d(0, 0, 0);
+  }
+  100% {
+    transform: rotate(0deg) translate3d(0, 0, 0);
+  }
+}
